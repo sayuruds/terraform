@@ -1,3 +1,5 @@
+################# vpc #################
+
 variable "region" {
   description = "region"
   type = string
@@ -8,7 +10,6 @@ variable "project_name" {
   type = string
 }
 
-############### vpc ################
 
 # vpc vars
 variable "vpc-cidr" {
